@@ -1,0 +1,120 @@
+/* General Body Styling */
+body {
+    background-color: #1a1a1a;
+    color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container Styling */
+.container {
+    max-width: 600px;
+    padding: 1rem;
+}
+
+/* Card Styling */
+.card {
+    background-color: #2d2d2d;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-header {
+    background-color: #495057;
+    color: #f8f9fa;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Form Labels */
+.form-label {
+    font-weight: bold;
+    color: #adb5bd;
+    margin-bottom: 0.5rem;
+}
+
+/* Select and Input Styling */
+.form-select,
+.form-control {
+    background-color: #495057;
+    color: #f8f9fa;
+    border: 1px solid #343a40;
+    border-radius: 5px;
+    padding: 0.75rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-select:focus,
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+/* Submit Button Styling */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(13, 110, 253, 0.5);
+}
+
+/* Prediction Result Styling */
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+/* Link Button for Return */
+.btn-outline-primary {
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    color: #ffffff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Margin Adjustments */
+.mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+/* Card Body Text */
+.card-body h3 {
+    color: #f8f9fa;
+    margin-top: 1rem;
+}
+
+.card-body p {
+    color: #adb5bd;
+    font-size: 1rem;
+}
+
+/* Additional Styles for Improved UX */
+.d-grid .btn {
+    margin-top: 1rem;
+}
